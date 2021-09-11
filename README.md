@@ -1,2 +1,46 @@
 # FirstPython
 This is my first python coding thingie
+
+nothing to see here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
