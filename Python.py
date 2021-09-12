@@ -100,4 +100,16 @@ time.sleep(0.1)
 print("loading \033[1;32m 100%")
 time.sleep(0.1)
 
+num = random.randint(1, 10)
+guess = None
+
+while guess != num:
+    guess = input("guess a number between 1 and 10: ")
+    guess = int(guess)
+
+    if guess == num:
+        print("congratulations! you won!")
+        break
+    else:
+        print("nope, sorry. try again!")
 
