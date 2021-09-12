@@ -9,6 +9,13 @@ import random
 #-------------------------
 
 
+
+
+
+
+
+
+
 name = input("Enter Your name: ")
 print("hello " + name)
 time.sleep (1)
@@ -104,12 +111,24 @@ num = random.randint(1, 10)
 guess = None
 
 while guess != num:
-    guess = input("guess a number between 1 and 10: ")
+    guess = input("\033[1;40; guess a number between 1 and 10: ")
     guess = int(guess)
 
     if guess == num:
-        print("congratulations! you won!")
+        print("\033[1;32; congratulations! you won!")
         break
     else:
-        print("nope, sorry. try again!")
+        print("\033[1;31; nope, sorry. try again!")
+
+
+
+briish = input("")
+print(briish)
+
+if (briish) == ("\033[1;32; talk briish"):
+    print("can I have a bo'ohw'o'wo'er mum?")
+    time.sleep(1)
+    print("\033[1;32;32 you are being HACKED"+time.sleep(0.01)*100)
+else:
+    print("American with guns and burgirs")
 
