@@ -1,36 +1,20 @@
 
 
-turk = ()
+question1 = input()
 
-what = int(input("what do you want +, -, x, : ?"))
+print(str(input("How is 'Hallo wereld'  ")))
 
-if what == (":"):
-    turk = (/)
-elif:
-    what == ("*")
-    turk = x
-elif:
-    what == ("+")
-    turk = +
+print(question1)
+
+if question1.lower() == ("hello"):
+    print("you got it")
 else:
-    what == ("-")
-    turk = -
-
-number1 = int(input("put a number here "))
-number2 = int(input("put another number "))
-number3 = int(input("put 3rd number"))
-
-
-x = (number1 turk number2)
-
-print (x)
-
-
-sbhhgvhu
-
-turk = x.__add__    ####
+    print("try again")
 
 
 
 
-
+#string1 = "ABC"
+#string2 = "abc"
+#comparison = string1.lower() == string2.lower()
+#print(comparison)
